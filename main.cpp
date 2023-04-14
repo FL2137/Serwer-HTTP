@@ -5,7 +5,6 @@ int main() {
 	Web::TCP::tcp_server::async_server(std::string("192.168.1.103"), 66, [](std::string request_string,std::string& resp) {
 		http_request request = request_parser::parse_request(request_string);
 		
-
 		//LOG(request.url);
 		
 		if (request.method == "GET"){

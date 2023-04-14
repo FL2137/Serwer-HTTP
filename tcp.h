@@ -16,8 +16,6 @@ using boost::asio::ip::tcp;
 namespace Web {
 	namespace TCP {
 
-
-
 		class tcp_connection
 			: public boost::enable_shared_from_this<tcp_connection>
 		{
@@ -28,9 +26,6 @@ namespace Web {
 			{
 				return pointer(new tcp_connection(io_context,handler_function));
 			}
-
-
-
 
 			tcp::socket& socket()
 			{
@@ -100,7 +95,6 @@ namespace Web {
 
 
 
-
 		//SERVER
 		class tcp_server
 		{
@@ -146,59 +140,6 @@ namespace Web {
 			boost::asio::io_context& io_context_;
 			tcp::acceptor acceptor_;
 		};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		class tcp_client {
 		public:

@@ -95,7 +95,7 @@ namespace Web{
 			"DATE: Sun, 20 Sep 2020 15 : 23 : 12 GMT\n"
 			"Server: cppTemp\n"
 			"Last-Modified : Sun, 20 Sep 2020\n"
-			"ETag : 'guwno'\n"
+			"ETag : 'test'\n"
 			"Accept-Ranges : bytes\n"
 			"Content-Length : 21\n"
 			"Connection : close\n"

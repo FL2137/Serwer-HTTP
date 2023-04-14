@@ -19,7 +19,6 @@ public:
 			boost::asio::buffers_end(streambuf.data()) };
 	}
 
-
 };
 class Random {
 private:
@@ -43,9 +42,4 @@ public:
 		Random r;
 		return r(0, 100000000);
 	}
-
-
-
-
-
 };

@@ -39,13 +39,7 @@ namespace Web {
 
 			auto _req = new Web::http_request();
 			
-			
-			
 			std::vector<std::string> lineVec = {};
-			
-			
-			
-			
 			
 			std::stringstream ss(request);
 			std::string out;
@@ -68,10 +62,6 @@ namespace Web {
 			}
 			_req->url.erase(std::remove(_req->url.begin(), _req->url.end(), ' '), _req->url.end());
 			
-
-
-
-
 			//data
 			bool dataFlag = false;
 			for (std::size_t i = 0; i < lineVec.size(); i++) {
@@ -90,23 +80,6 @@ namespace Web {
 			}
 
 			return *_req;
-
-
-
-
-
-				
-
 		}
-
-
-
-
-
-
-
 	};
-
-
-
 };
