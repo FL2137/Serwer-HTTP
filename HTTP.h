@@ -95,18 +95,10 @@ namespace Web{
 	public:
 		http_server(std::string host, const int PORT) {
 			//TCP::tcp_server(*ioc, host, PORT);
-
 		}
-
-
 
 	private:
 		boost::asio::io_context* ioc = new boost::asio::io_context();
 	};
 
-	
-
-
 }
-
-

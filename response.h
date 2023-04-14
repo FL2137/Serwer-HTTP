@@ -56,19 +56,6 @@ namespace Web{
 				}
 			}
 			
-
-
-
-
-
-
-
-
-
-
-
-			
-
 			
 			this->status = "HTTP/1.1 200 OK\n";
 			this->date = "DATE: "+get_time();
@@ -114,7 +101,7 @@ namespace Web{
 			"Connection : close\n"
 			"Content-Type : text/html\n"
 			"\n"
-			"<h1>My penis page </h1>");
+			"<h1>My page </h1>");
 
 		enum status_type {
 			Continue =100,
