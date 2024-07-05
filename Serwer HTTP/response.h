@@ -41,7 +41,7 @@ namespace Web{
 					file.close();
 				}
 				else {
-					puts("ERROR KURWA");
+					puts("ERROR");
 				}
 			}
 			else if (content_type == "application/json") {
